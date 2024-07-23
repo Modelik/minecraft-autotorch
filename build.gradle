@@ -6,6 +6,7 @@ repositories {
     maven { url 'https://maven.shedaniel.me/' }
     maven { url 'https://maven.terraformersmc.com/releases'}
     maven { url = "https://jitpack.io" }
+    maven { url = "https://maven.fabricmc.net/" }
 }
 
 sourceCompatibility = JavaVersion.VERSION_17
@@ -32,10 +33,6 @@ dependencies {
     include "me.shedaniel.cloth:cloth-config-fabric:${project.cloth_version}"
     modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 
-    <groupId>fabric-loom</groupId>
-    <artifactId>fabric-loom.gradle.plugin</artifactId>
-    <version>1.7.2</version>
-    <type>pom</type>
 
 }
 
